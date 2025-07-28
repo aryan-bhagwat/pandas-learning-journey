@@ -1,0 +1,8 @@
+,Weekday,Daily_Expense,Above_200
+0,Monday,220,True
+1,Tuesday,180,False
+2,Wednesday,210,True
+3,Thursday,205,True
+4,Friday,260,True
+5,Saturday,150,False
+6,Sunday,190,False

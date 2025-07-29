@@ -44,12 +44,52 @@ This repository contains daily Pandas practice exercises following a structured 
 
 ---
 
+# 📅 Day 3 - Indexing, Selection & Filtering
+
+### 📘 Topics Covered:
+- Selecting columns using `[]`
+- Row selection with `.loc[]` and `.iloc[]`
+- Filtering rows with conditions
+- Combining multiple conditions
+
+---
+
+### 📂 Files:
+- `day03_selection_filtering.py` – Practice file with examples and TODOs
+- `datasets/daily_expenses.csv` – Sample data used for filtering
+
+---
+
+### ✅ Tasks Performed:
+- Loaded CSV and selected specific columns
+- Retrieved rows using `.iloc[]` and `.loc[]`
+- Filtered rows using logical conditions
+- Practiced combining conditions using `&`, `|`, and `~`
+- Added a new column based on condition
+- Exported filtered results to a new CSV file
+
+---
+
+### 🧪 Practice Set (TODOs):
+- Extract column(s) using different methods
+- Use `.loc` and `.iloc` to retrieve specific rows
+- Apply filters using comparison operators
+- Combine conditions with AND / OR
+- Create a new column based on logic
+- Save filtered data to a new CSV
+
+---
+
+### 💡 Learnings:
+This day focused on accessing and filtering data using Pandas core indexing tools and logic, essential for exploring real-world datasets effectively.
+
+
 ## 🧠 Daily Progress Tracker
 | Day | Topic                             | Status  |
 |-----|-----------------------------------|---------|
 | 1   | Series & DataFrames               | ✅ Done |
 | 2   | Data Inspection & Basics          | ✅ Done |
-| 3   | Indexing & Filtering              | ⏳ Pending |
+| 3   | Indexing & Filtering              | ✅ Done |
 | 4   | Data Cleaning                     | ⏳ Pending |
 | 5   | Data Transformation               | ⏳ Pending |
 | 6   | Grouping & Aggregation            | ⏳ Pending |

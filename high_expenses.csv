@@ -1,0 +1,5 @@
+Unnamed: 0,Weekday,Daily_Expense,Above_200,Is_Weekend
+0,Monday,220,True,False
+2,Wednesday,210,True,False
+3,Thursday,205,True,False
+4,Friday,260,True,False

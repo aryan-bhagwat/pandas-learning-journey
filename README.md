@@ -84,13 +84,50 @@ This repository contains daily Pandas practice exercises following a structured 
 This day focused on accessing and filtering data using Pandas core indexing tools and logic, essential for exploring real-world datasets effectively.
 
 
+# 📅 Day 4 - Data Cleaning: Handling Missing Values & Duplicates
+
+### 📘 Topics Covered:
+- Identifying missing values using `isnull()`
+- Dropping missing values with `dropna()`
+- Filling missing values with `fillna()`
+- Removing duplicate rows using `drop_duplicates()`
+
+---
+
+### 📂 Files:
+- `day04_data_cleaning.py` – Practice file with examples and TODOs
+- `datasets/dirty_data.csv` – Sample dataset with missing values and duplicates
+
+---
+
+### ✅ Tasks Performed:
+- Detected missing data per column
+- Dropped and filled missing values with statistical values
+- Identified and removed duplicate rows
+- Exported cleaned data to new CSV files
+
+---
+
+### 🧪 Practice Set (TODOs):
+- Print and count missing rows
+- Apply various fill strategies (mean, median, fixed value)
+- Drop rows vs. fill values: choose appropriately
+- Remove duplicates from the dataset
+- Export cleaned and de-duplicated datasets
+
+---
+
+### 💡 Learnings:
+Cleaning messy data is one of the most frequent and important tasks in data analysis. Mastering these operations builds a strong foundation for data preprocessing and analysis.
+
+
 ## 🧠 Daily Progress Tracker
 | Day | Topic                             | Status  |
 |-----|-----------------------------------|---------|
 | 1   | Series & DataFrames               | ✅ Done |
 | 2   | Data Inspection & Basics          | ✅ Done |
 | 3   | Indexing & Filtering              | ✅ Done |
-| 4   | Data Cleaning                     | ⏳ Pending |
+| 4   | Data Cleaning                     | ✅ Done |
 | 5   | Data Transformation               | ⏳ Pending |
 | 6   | Grouping & Aggregation            | ⏳ Pending |
 | 7   | Merging, Concatenation, Sorting   | ⏳ Pending |

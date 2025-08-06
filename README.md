@@ -159,6 +159,43 @@ Cleaning messy data is one of the most frequent and important tasks in data anal
 Sorting and managing columns help in organizing data for analysis and presentation. Resetting the index keeps the DataFrame tidy after reordering.
 
 
+# 📅 Day 6 - GroupBy & Aggregations
+
+### 📘 Topics Covered:
+- Grouping data by one or multiple columns
+- Aggregating data using sum, mean, max, min
+- Applying multiple aggregations to different columns
+- Resetting index after groupby
+
+---
+
+### 📂 Files:
+- `day06_groupby_aggregations.py` – Practice file with examples and TODOs
+- `datasets/sales_records.csv` – Sample dataset for groupby & aggregation
+
+---
+
+### ✅ Tasks Performed:
+- Grouped sales data by Region and Product
+- Calculated totals, averages, and maximums
+- Applied multiple aggregations
+- Reset index for cleaner grouped DataFrames
+
+---
+
+### 🧪 Practice Set (TODOs):
+- Find total quantity per product
+- Find average sales per region
+- Find min and max sales per product
+- Group by multiple columns and calculate total sales and quantities
+- Save grouped results to CSV
+
+---
+
+### 💡 Learnings:
+GroupBy is one of Pandas' most powerful tools, enabling summarization and aggregation of large datasets efficiently.
+
+
 ## 🧠 Daily Progress Tracker
 | Day | Topic                             | Status  |
 |-----|-----------------------------------|---------|
@@ -167,7 +204,7 @@ Sorting and managing columns help in organizing data for analysis and presentati
 | 3   | Indexing & Filtering              | ✅ Done |
 | 4   | Data Cleaning                     | ✅ Done |
 | 5   | Data Transformation               | ✅ Done |
-| 6   | Grouping & Aggregation            | ⏳ Pending |
+| 6   | Grouping & Aggregation            | ✅ Done |
 | 7   | Merging, Concatenation, Sorting   | ⏳ Pending |
 | 8   | Time Series                       | ⏳ Pending |
 | 9   | Real Dataset & File I/O           | ⏳ Pending |

@@ -121,6 +121,44 @@ This day focused on accessing and filtering data using Pandas core indexing tool
 Cleaning messy data is one of the most frequent and important tasks in data analysis. Mastering these operations builds a strong foundation for data preprocessing and analysis.
 
 
+# 📅 Day 5 - Sorting, Resetting Index & Column Operations
+
+### 📘 Topics Covered:
+- Sorting by one or multiple columns
+- Ascending vs. descending order
+- Resetting index after sorting
+- Adding, modifying, and deleting columns
+
+---
+
+### 📂 Files:
+- `day05_sorting_columns.py` – Practice file with examples and TODOs
+- `datasets/sales_data.csv` – Sample dataset for sorting & column operations
+
+---
+
+### ✅ Tasks Performed:
+- Sorted by single and multiple columns
+- Reset index after sorting
+- Created new calculated columns
+- Modified column values
+- Dropped columns from DataFrame
+
+---
+
+### 🧪 Practice Set (TODOs):
+- Sort data based on different columns and orders
+- Create new columns from existing data
+- Modify existing column values
+- Drop unnecessary columns
+- Save sorted results to CSV
+
+---
+
+### 💡 Learnings:
+Sorting and managing columns help in organizing data for analysis and presentation. Resetting the index keeps the DataFrame tidy after reordering.
+
+
 ## 🧠 Daily Progress Tracker
 | Day | Topic                             | Status  |
 |-----|-----------------------------------|---------|
@@ -128,7 +166,7 @@ Cleaning messy data is one of the most frequent and important tasks in data anal
 | 2   | Data Inspection & Basics          | ✅ Done |
 | 3   | Indexing & Filtering              | ✅ Done |
 | 4   | Data Cleaning                     | ✅ Done |
-| 5   | Data Transformation               | ⏳ Pending |
+| 5   | Data Transformation               | ✅ Done |
 | 6   | Grouping & Aggregation            | ⏳ Pending |
 | 7   | Merging, Concatenation, Sorting   | ⏳ Pending |
 | 8   | Time Series                       | ⏳ Pending |

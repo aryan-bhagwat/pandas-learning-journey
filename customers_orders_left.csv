@@ -1,0 +1,6 @@
+CustomerID,Name,Country,OrderID,Product,Amount
+1,Aryan,India,101.0,Laptop,800.0
+1,Aryan,India,105.0,Phone,700.0
+2,Sarah,USA,,,
+3,John,UK,102.0,Phone,600.0
+4,Emma,Australia,103.0,Desk,250.0

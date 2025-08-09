@@ -1,0 +1,6 @@
+OrderID,CustomerID,Product,Amount
+101,1,Laptop,800
+102,3,Phone,600
+103,4,Desk,250
+104,5,Chair,120
+105,1,Phone,700

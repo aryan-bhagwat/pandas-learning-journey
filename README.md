@@ -196,6 +196,41 @@ Sorting and managing columns help in organizing data for analysis and presentati
 GroupBy is one of Pandas' most powerful tools, enabling summarization and aggregation of large datasets efficiently.
 
 
+# 📅 Day 7 - Merging & Joining DataFrames
+
+### 📘 Topics Covered:
+- Inner, Left, Right, Outer joins in Pandas
+- Merging on one column or different column names
+- Combining datasets for analysis
+
+---
+
+### 📂 Files:
+- `day07_merging_joining.py` – Example code + practice tasks
+- `datasets/customers.csv` – Customers data
+- `datasets/orders.csv` – Orders data
+
+---
+
+### ✅ Tasks Performed:
+- Merged datasets with different join types
+- Practiced merging on the same and different column names
+- Learned to combine datasets similar to SQL joins
+
+---
+
+### 🧪 Practice Set (TODOs):
+- Merge and select specific columns
+- Fill missing values after join
+- Group and calculate aggregated results
+- Save merged outputs
+
+---
+
+### 💡 Learnings:
+Merging and joining helps combine related datasets into a single table, enabling more powerful data analysis.
+
+
 ## 🧠 Daily Progress Tracker
 | Day | Topic                             | Status  |
 |-----|-----------------------------------|---------|
@@ -205,7 +240,7 @@ GroupBy is one of Pandas' most powerful tools, enabling summarization and aggreg
 | 4   | Data Cleaning                     | ✅ Done |
 | 5   | Data Transformation               | ✅ Done |
 | 6   | Grouping & Aggregation            | ✅ Done |
-| 7   | Merging, Concatenation, Sorting   | ⏳ Pending |
+| 7   | Merging, Concatenation, Sorting   | ✅ Done |
 | 8   | Time Series                       | ⏳ Pending |
 | 9   | Real Dataset & File I/O           | ⏳ Pending |
 | 10  | Mini Projects                     | ⏳ Pending |

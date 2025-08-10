@@ -231,6 +231,27 @@ GroupBy is one of Pandas' most powerful tools, enabling summarization and aggreg
 Merging and joining helps combine related datasets into a single table, enabling more powerful data analysis.
 
 
+## 📅 Day 8 - Time Series in Pandas
+
+### Topics Covered:
+- Converting strings to datetime
+- Extracting year, month, day, weekday
+- Setting datetime as index
+- Filtering by date range
+- Resampling (monthly, weekly, yearly)
+
+### 📂 Files:
+- `day08_time_series.py` - Day 8 practice script
+- `datasets/sales_timeseries.csv` - Sample dataset
+
+### ✅ Tasks Performed:
+- Converted date column to datetime
+- Extracted year, month, weekday
+- Set date as index
+- Filtered specific months
+- Resampled sales data by month and week
+
+
 ## 🧠 Daily Progress Tracker
 | Day | Topic                             | Status  |
 |-----|-----------------------------------|---------|
@@ -241,7 +262,7 @@ Merging and joining helps combine related datasets into a single table, enabling
 | 5   | Data Transformation               | ✅ Done |
 | 6   | Grouping & Aggregation            | ✅ Done |
 | 7   | Merging, Concatenation, Sorting   | ✅ Done |
-| 8   | Time Series                       | ⏳ Pending |
+| 8   | Time Series                       | ✅ Done |
 | 9   | Real Dataset & File I/O           | ⏳ Pending |
 | 10  | Mini Projects                     | ⏳ Pending |
 

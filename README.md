@@ -252,6 +252,28 @@ Merging and joining helps combine related datasets into a single table, enabling
 - Resampled sales data by month and week
 
 
+## 📅 Day 9 - Real Dataset & File I/O
+
+### Topics Covered:
+- Reading from different file formats (`CSV`, `Excel`, `JSON`)
+- Writing DataFrames to files (`to_csv`, `to_excel`, `to_json`)
+- Handling large files with `chunksize`
+- Basic file exploration before loading
+- Using `os` module to check file details
+
+### 📂 Files:
+- `day09_file_io.py` - Day 9 practice script
+- `datasets/sales_data.csv` - Sample CSV file
+- `datasets/sales_data.xlsx` - Sample Excel file
+- `datasets/sales_data.json` - Sample JSON file
+
+### ✅ Tasks Performed:
+- Loaded data from CSV, Excel, JSON
+- Saved DataFrames to CSV, Excel, JSON
+- Processed large CSV files in chunks
+- Checked file size before loading
+
+
 ## 🧠 Daily Progress Tracker
 | Day | Topic                             | Status  |
 |-----|-----------------------------------|---------|
@@ -263,7 +285,7 @@ Merging and joining helps combine related datasets into a single table, enabling
 | 6   | Grouping & Aggregation            | ✅ Done |
 | 7   | Merging, Concatenation, Sorting   | ✅ Done |
 | 8   | Time Series                       | ✅ Done |
-| 9   | Real Dataset & File I/O           | ⏳ Pending |
+| 9   | Real Dataset & File I/O           | ✅ Done |
 | 10  | Mini Projects                     | ⏳ Pending |
 
 ---

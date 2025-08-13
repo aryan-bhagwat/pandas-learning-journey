@@ -274,6 +274,39 @@ Merging and joining helps combine related datasets into a single table, enabling
 - Checked file size before loading
 
 
+# Day 10 — Pandas Mini Projects
+
+## 🎯 Learning Goals
+- Apply Pandas skills to small real-world problems.
+- Practice reading, cleaning, and summarizing datasets.
+- Learn how to merge, group, and pivot data.
+
+## 📚 Topics Covered
+- CSV import/export
+- GroupBy & aggregation
+- Filtering & sorting
+- Merging datasets
+- Pivot tables
+
+## 📂 Projects
+
+### **Project 1: Sales Report Generator**
+- Input: `datasets/sales_data.csv`
+- Output: Total sales, sales by region, top products, high-value sales list.
+
+### **Project 2: Student Grade Analysis**
+- Input: `datasets/student_scores.csv`
+- Output: Average scores, pass rate, top students list.
+
+### **Project 3: E-commerce Orders**
+- Inputs: `datasets/orders.csv`, `datasets/customers.csv`
+- Output: Orders by country, pivot table of orders per month.
+
+## 📝 TODO Tasks
+All TODOs are inside `day10_mini_projects.py`.  
+No answers provided — solve them yourself.
+
+
 ## 🧠 Daily Progress Tracker
 | Day | Topic                             | Status  |
 |-----|-----------------------------------|---------|
@@ -286,7 +319,7 @@ Merging and joining helps combine related datasets into a single table, enabling
 | 7   | Merging, Concatenation, Sorting   | ✅ Done |
 | 8   | Time Series                       | ✅ Done |
 | 9   | Real Dataset & File I/O           | ✅ Done |
-| 10  | Mini Projects                     | ⏳ Pending |
+| 10  | Mini Projects                     | ✅ Done |
 
 ---
 

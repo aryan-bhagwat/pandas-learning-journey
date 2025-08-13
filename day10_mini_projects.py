@@ -54,9 +54,24 @@ high_value_sales.to_csv('C:\Aryan\GitHub Repo\pandas-learning-journey\high_value
 
 ## Mini Project 2 TODOs:
 # TODO 5: From grades_df, find the student with the highest total score.
+top_student = grades_df.loc[grades_df['Math'] + grades_df['Science'] + grades_df['English'] ==
+                          (grades_df['Math'] + grades_df['Science'] + grades_df['English']).max()]
+top_student = top_student[['Name', 'Math', 'Science', 'English']]
+print(f"Top Student:\n{top_student}\n")
+
 # TODO 6: Calculate pass rate if pass mark is 40 for each subject.
+pass_rate = (grades_df[['Math', 'Science', 'English']] >= 40).mean() * 100
+pass_rate = pass_rate.reset_index()
+print(f"Pass Rate per Subject:\n{pass_rate}\n")
+
 # TODO 7: Find subject with the highest average score.
+highest_avg_score = grades_df[['Math', 'Science', 'English']].mean().idxmax()
+print(f"Subject with Highest Average Score: {highest_avg_score}\n")
+
 # TODO 8: Save a sorted list of students by total score (descending) to outputs/top_students.csv.
+top_students = grades_df.assign(Total=grades_df[['Math', 'Science', 'English']].sum(axis=1))
+top_students = top_students.sort_values(by='Total', ascending=False)[['Name', 'Total']]
+top_students.to_csv('C:\Aryan\GitHub Repo\pandas-learning-journey/top_students.csv', index=False)
 
 ## Mini Project 3: E-commerce Orders
 # TODO 9: Load datasets/orders.csv and datasets/customers.csv.

@@ -1,6 +1,6 @@
-OrderID,CustomerID,Product,Amount
-101,1,Laptop,800
-102,3,Phone,600
-103,4,Desk,250
-104,5,Chair,120
-105,1,Phone,700
+OrderID,CustomerID,Product,Amount,OrderDate
+101,1,Laptop,800,08-03-2024
+102,3,Phone,600,15-02-2024
+103,4,Desk,250,31-03-2024
+104,5,Chair,120,31-03-2024
+105,1,Phone,700,23-01-2024

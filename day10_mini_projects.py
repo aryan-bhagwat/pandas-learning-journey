@@ -35,7 +35,6 @@ print(f"Average Scores per Subject:\n{average_scores}\n")
 # PRACTICE TODOs (Do these yourself — no answers here)
 
 ## Mini Project 1 TODOs:
-
 # TODO 1: From sales_df, find the top 5 products by total sales.
 top_products = sales_df.groupby('Product')['Sales'].sum().nlargest(5).reset_index()
 print(f"Top 5 Products by Sales:\n{top_products}\n")
@@ -75,13 +74,18 @@ top_students.to_csv('C:\Aryan\GitHub Repo\pandas-learning-journey/top_students.c
 
 ## Mini Project 3: E-commerce Orders
 # TODO 9: Load datasets/orders.csv and datasets/customers.csv.
+orders_df = pd.read_csv('C:\Aryan\GitHub Repo\pandas-learning-journey\orders.csv')
+customers_df = pd.read_csv('C:\Aryan\GitHub Repo\pandas-learning-journey\customers.csv')
+
 # TODO 10: Merge orders with customers on 'CustomerID'.
+merged_df = pd.merge(orders_df, customers_df, on='CustomerID', how='inner')
+print(f"Merged DataFrame:\n{merged_df.head()}\n")
+
 # TODO 11: Find the total orders per country.
+total_orders_per_country = merged_df.groupby('Country')['OrderID'].count().reset_index()
+print(f"Total Orders per Country:\n{total_orders_per_country}\n")
+
 # TODO 12: Save a pivot table of country vs month showing order counts.
-
-
-# Tips:
-# - Use groupby() + sum()/mean() for aggregations.
-# - pd.merge(df1, df2, on='col') to join datasets.
-# - df.sort_values(by=..., ascending=False) for ranking.
-# - pd.pivot_table() for summaries.
+merged_df['OrderDate'] = pd.to_datetime(merged_df['OrderDate'], dayfirst=True)
+pivot_table = merged_df.pivot_table(index='Country', columns=merged_df['OrderDate'].dt.strftime('%Y-%m'), values='OrderID', aggfunc='count', fill_value=0)
+pivot_table.to_csv('C:\Aryan\GitHub Repo\pandas-learning-journey\country_month_orders.csv')
